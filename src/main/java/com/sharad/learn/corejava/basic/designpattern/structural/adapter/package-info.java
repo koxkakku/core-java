@@ -1,0 +1,1 @@
+package com.sharad.learn.corejava.basic.designpattern.structural.adapter;
