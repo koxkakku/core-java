@@ -60,7 +60,7 @@ public class MapDemo {
 		countryMap.put("Australia", new ArrayList<>());
 		countryMap.put("Antarctica", new ArrayList<>());
 		countryMap.put("Europe", new ArrayList<>());
-		if (Objects.isNull(countryMap) ^ countryMap.isEmpty() && countryMap.containsKey("Asia")) {
+		if ((!Objects.isNull(countryMap) || countryMap.isEmpty()) && countryMap.containsKey("Asia")) {
 			List<Map<String, List<String>>> list = countryMap.get("Asia");
 			Optional<Map<String, List<String>>> findAny = list.stream().filter(obj -> obj.containsKey("India"))
 					.findAny();
