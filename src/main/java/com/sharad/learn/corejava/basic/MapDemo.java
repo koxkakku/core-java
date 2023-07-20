@@ -105,5 +105,15 @@ public class MapDemo {
 		avgMarks.computeIfPresent("Sankalp", (k,v)->v==null?null:v+48);
 		avgMarks.entrySet().forEach(System.out::println);
 
+
+		List<String> countries = Arrays.asList("USA", "Canada", "Germany");
+		Map<String, Integer> countryLengthMap = countries.stream()
+		                                                .collect(Collectors.toMap(
+		                                                    country -> country,
+		                                                    country -> country.length()
+		                                                ));
+		System.out.println(countryLengthMap); // Output: {USA=3, Canada=6, Germany=7}
+
+
 	}
 }
