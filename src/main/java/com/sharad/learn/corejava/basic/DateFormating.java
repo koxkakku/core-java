@@ -2,7 +2,9 @@ package com.sharad.learn.corejava.basic;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+/**
+ * @author koxkakku
+ */
 public class DateFormating {
 
 	public static void main(String[] args) {

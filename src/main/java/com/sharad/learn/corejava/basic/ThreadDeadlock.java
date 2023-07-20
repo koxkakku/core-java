@@ -1,5 +1,7 @@
 package com.sharad.learn.corejava.basic;
-
+/**
+ * @author koxkakku
+ */
 public class ThreadDeadlock {
 
     public static void main(String[] args) throws InterruptedException {

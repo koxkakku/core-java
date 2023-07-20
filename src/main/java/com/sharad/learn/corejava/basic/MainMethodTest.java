@@ -1,5 +1,7 @@
 package com.sharad.learn.corejava.basic;
-
+/**
+ * @author koxkakku
+ */
 public class MainMethodTest {
 	public static void main(String arg) {
 		System.out.println("Running10");

@@ -1,7 +1,9 @@
 package com.sharad.learn.corejava.basic;
 
 import java.util.*;
-
+/**
+ * @author koxkakku
+ */
 public class SimpleCalculator {
 
 	public static void main(String[] args) {

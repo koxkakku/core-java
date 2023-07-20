@@ -1,5 +1,7 @@
 package com.sharad.learn.corejava.basic;
-
+/**
+ * @author koxkakku
+ */
 public class Power {
 	private static int calculate(int num, int power) {
 		int p = 1;

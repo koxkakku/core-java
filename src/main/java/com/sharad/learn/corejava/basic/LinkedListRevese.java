@@ -1,7 +1,9 @@
 package com.sharad.learn.corejava.basic;
 
 import java.util.LinkedList;
-
+/**
+ * @author koxkakku
+ */
 public class LinkedListRevese {
 	public static void main(String[] args) {
 		LinkedList<Integer> ll = new LinkedList<>();

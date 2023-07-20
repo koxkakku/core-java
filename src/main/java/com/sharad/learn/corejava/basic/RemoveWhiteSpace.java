@@ -1,5 +1,7 @@
 package com.sharad.learn.corejava.basic;
-
+/**
+ * @author koxkakku
+ */
 public class RemoveWhiteSpace {
 	public static void main(String[] args) {
 		System.out.println(removeWhiteSpaces("I N D I A"));

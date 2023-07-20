@@ -1,5 +1,7 @@
 package com.sharad.learn.corejava.basic;
-
+/**
+ * @author koxkakku
+ */
 public class VowelCheck {
 	public static void main(String[] args) {
 		System.out.println(stringContainsVowels("Hello")); // true

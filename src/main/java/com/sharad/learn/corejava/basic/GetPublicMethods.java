@@ -3,10 +3,12 @@ package com.sharad.learn.corejava.basic;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Collections;
-
+/**
+ * @author koxkakku
+ */
 public class GetPublicMethods {
 	public static void main(String[] args){
-        Class student = Student.class;
+        Class<Student> student = Student.class;
         Method[] methods = student.getDeclaredMethods();
 
         ArrayList<String> methodList = new ArrayList<>();

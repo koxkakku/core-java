@@ -2,7 +2,9 @@ package com.sharad.learn.corejava.basic;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-
+/**
+ * @author koxkakku
+ */
 public class AccessPrivateMethodOfStaticInnerClass {
 	public static void main(String[] args) throws Exception {
 		DoNotTerminate.forbidExit();	

@@ -1,8 +1,10 @@
 package com.sharad.learn.corejava.basic;
-
+/**
+ * @author koxkakku
+ */
 public class PlindomeNumber {
 	/**
-     * Test the actual code if it works correctly
+     * 
      * */
     public static void main(String[] args)
     {

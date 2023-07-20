@@ -5,7 +5,9 @@ import java.time.LocalTime;
 import java.time.temporal.ChronoUnit;
 import java.util.Arrays;
 import java.util.Random;
-
+/**
+ * @author koxkakku
+ */
 public class QuickSort {
 
 	public static void main(String[] args) {

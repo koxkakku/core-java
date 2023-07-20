@@ -3,8 +3,10 @@ package com.sharad.learn.corejava.basic;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-/*
+/**
  * solution to one of hackerrank problem
+ * @author koxkakku
+ * 
  */
 public class ExtractTagContent {
 	public static void main(String[] args) {

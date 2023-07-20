@@ -3,7 +3,9 @@ package com.sharad.learn.corejava.basic;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-
+/**
+ * @author koxkakku
+ */
 public  class FlatMapTest{
 	
 	 public static void main(String[] arg) {

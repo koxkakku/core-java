@@ -9,7 +9,9 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
+/**
+ * @author koxkakku
+ */
 public class ListStreamDemo {
 
 	public static void main(String[] args) {

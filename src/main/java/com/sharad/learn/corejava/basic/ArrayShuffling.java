@@ -2,7 +2,9 @@ package com.sharad.learn.corejava.basic;
 
 import java.util.Arrays;
 import java.util.Random;
-
+/**
+ * @author koxkakku
+ */
 public class ArrayShuffling {
 	public static void main(String[] args) {
 		int[] array = { 1, 2, 3, 4, 5, 6, 7 };

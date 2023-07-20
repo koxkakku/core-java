@@ -1,5 +1,7 @@
 package com.sharad.learn.corejava.basic;
-
+/**
+ * @author koxkakku
+ */
 public class Factorial {
 	private static int factorial(int number) {
 		if (number == 0)

@@ -9,7 +9,9 @@ import java.util.Map.Entry;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.stream.Collectors;
-
+/**
+ * @author koxkakku
+ */
 public class MapDemo {
 
 	public static void main(String[] args){
