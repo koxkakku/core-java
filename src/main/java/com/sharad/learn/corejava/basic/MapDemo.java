@@ -1,6 +1,7 @@
 package com.sharad.learn.corejava.basic;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -90,7 +91,7 @@ public class MapDemo {
 			collect.forEach(item -> System.out.println("Continent Name :" + item.getKey()));
 		}
 
-		Map<String,Integer> avgMarks = new HashMap();
+		Map<String,Integer> avgMarks = new HashMap<>();
 		avgMarks.put("Sharad", 72);
 		avgMarks.put("Saurav", 84);
 		avgMarks.put("Samya", 68);
