@@ -30,9 +30,10 @@ public class RunVsStart {
 		RunnableThread rt1 = new RunnableThread();
 		RunnableThread rt2 = new RunnableThread();
 		RunnableThread rt3 = new RunnableThread();
-		Thread t1 = new Thread(rt1); t1.start();
-		Thread t2 = new Thread(rt2);t2.start();
-		Thread t3 = new Thread(rt3);t3.start();
+		Thread t1 = new Thread(rt1); t1.start();// new thread started
+		Thread t2 = new Thread(rt2);t2.start();// new thread started
+		Thread t3 = new Thread(rt3);t3.start();// new thread started
+		
 
 	}
 

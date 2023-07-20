@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
  * Java Program to find duplicate characters in String.
  *
  *
- * @author user
+ * @author koxkakku
  */
 public class FindDuplicateCharacters {
 

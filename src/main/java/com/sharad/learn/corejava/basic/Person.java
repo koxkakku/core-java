@@ -6,7 +6,7 @@ import java.util.Objects;
 /**
  * Description : Class Person
  * 
- * @author 1072034
+ * @author koxkakku
  *
  */
 public class Person implements Serializable {
