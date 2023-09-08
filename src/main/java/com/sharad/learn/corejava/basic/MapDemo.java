@@ -116,6 +116,19 @@ public class MapDemo {
 		                                                    country -> country.length()
 		                                                ));
 		System.out.println(countryLengthMap); // Output: {USA=3, Canada=6, Germany=7}
+		
+		Person px = new Person();px.setName("Sharad");px.setSalary(100);
+		Person py = new Person();py.setName("Sharad");py.setSalary(100);
+		Map<Person,Double> empMap = new HashMap<>();
+		empMap.put(px, px.getSalary());
+		empMap.put(py, py.getSalary());
+		System.out.println(empMap.size());//1
+		px.setName("Sourav");
+		Person pz = new Person();pz.setName("Sourav");pz.setSalary(100);
+		empMap.put(pz, pz.getSalary());
+		System.out.println(empMap.size());//2
+		
+		System.out.println("Hi"+null);//Hinull
 
 
 	}
